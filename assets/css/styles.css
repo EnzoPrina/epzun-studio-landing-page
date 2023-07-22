@@ -142,6 +142,8 @@ img {
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
+
+
 }
 
 .section__title {
@@ -1116,9 +1118,10 @@ margin-right: var(--mb-0-75);
     body{
       margin: 0;
     }
-
+    
     .section{
       padding: 6rem 0 2rem;
+
     }
 
     .section__subtitle{
@@ -1262,7 +1265,7 @@ grid-template-columns: .5fr;
     transform: translateX(-6rem);
   }
   .services__container{
-    grid-template-columns: repeat(3, 238px);
+    grid-template-columns: repeat(2, 357px);
   }
   .portfolio__content{
     column-gap: 5rem;
