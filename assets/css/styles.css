@@ -280,6 +280,28 @@ img {
 
 /*==================== HOME ====================*/
 
+/* Estilo inicial */
+.home__img {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Estilo final (posición elevada) */
+.home__img.is-raised {
+  transform: translateY(-20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .home__container {
   gap: 1rem;
 }

@@ -212,3 +212,13 @@ function handleSubmit(event) {
   $buttonMailto.setAttribute('href', `mailto::enzoprina9@gmail.com?subject=${form.get('name')}${form.get('email')}&body=${form.get('message')}`)
   $buttonMailto.click()
 }
+
+function raiseImage() {
+    const imgElement = document.querySelector(".home__img");
+    imgElement.classList.add("is-raised");
+  }
+
+  function lowerImage() {
+    const imgElement = document.querySelector(".home__img");
+    imgElement.classList.remove("is-raised");
+  }
